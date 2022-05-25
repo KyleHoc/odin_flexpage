@@ -42,7 +42,7 @@ body{
 .middle{
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 75px;
     background-color: white;
 }
 
@@ -77,12 +77,40 @@ body{
 
 .rowtext{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-top: 16px;
     width: 300px;
     font-size: 28px;
     color: black;
     text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.para{
+    display: flex;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 100;
+    width: 2000px;
+    color: #1F2937
+}
+
+.source{
+    font-size: 32px;
+    text-align: right;
+    width: 1800px;
 }
 
 .logo{
