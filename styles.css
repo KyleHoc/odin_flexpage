@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -25,6 +25,7 @@ body{
     align-items: center;
     max-height: 400px;
     gap: 16px;
+    padding-bottom: 20px;
 }
 
 .left{
@@ -88,9 +89,10 @@ body{
 
 .quote{
     display: flex;
+    margin-top: 20px;
     flex-direction: column;
     background-color:#E5E7EB;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,17 +102,55 @@ body{
 
 .para{
     display: flex;
-    font-size: 64px;
+    font-size: 32px;
     font-style: italic;
     font-weight: 100;
-    width: 2000px;
+    width: 1000px;
     color: #1F2937
 }
 
 .source{
-    font-size: 32px;
+    font-size: 16px;
     text-align: right;
-    width: 1800px;
+    width: 900px;
+}
+
+.register{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    background-color:#3883f6;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 400px;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.statement{
+    display: flex;
+    flex-direction: column;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.substatement{
+    display: flex;
+    color: #F9FAF8;
+    font-size: 26px;
+    padding-top: 8px;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: 24px;
+    color: #f9fAF8;
 }
 
 .logo{
@@ -131,13 +171,26 @@ a{
     font-size: 18px;
 }
 
-button{
+.button1{
     padding: 8px 16px;
-    background-color:royalblue;
+    background-color:#3883f6;
     color: white;
     box-shadow: none;
     border-radius: 6px;
     width: 100px;
+}
+
+.button2{
+    padding: 8px 16px;
+    background-color:#3883f6;
+    color: white;
+    box-shadow: none;
+    border-radius: 6px;
+    width: 150px;
+    height: 75px;
+    font-size: 28px;
+    border-color: white;
+    border-width: 5px;
 }
 
 .text{
@@ -157,5 +210,9 @@ button{
     flex-wrap: wrap;
     color: #E5E7EB;
     font-size:16px;
-    
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
 }
